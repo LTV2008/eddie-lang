@@ -489,15 +489,7 @@ class Parser:
         declaration_type = self.current_token.value
         self.eat(TokenType.IDENTIFIER)  # Consume 'var', 'let', or 'const'
         var_name = self.current
-
---------------------
-
-User prompt 6 of 10 - 12/21/2025, 7:05:16 PM:
-Can I now see the completed code? Be sure to split your responses evenly to avoid reaching the response limit.
-
-GPT-4o mini:
-Sure! Here’s the completed implementation of the interpreter, split into manageable sections for clarity.
-
+```
 ### Complete Interpreter Code (Part 1)
 
 #### 1. Token Types and Tokenizer
@@ -956,13 +948,7 @@ class Parser:
             true_branch.append(self.statement())
         self.eat(Token
 
---------------------
-
-User prompt 10 of 10 - 12/21/2025, 7:10:16 PM:
-Now double-check the syntax from earlier. Is everything I want implemented? If changes need to be made, be sure to break them down to avoid reaching the conversation limit.
-
-GPT-4o mini:
-Let’s conduct a thorough review of the updated interpreter against the original scripting language syntax you provided. We will evaluate each feature to ensure it's implemented correctly.
+```
 
 ### Key Functionalities from the Original Documentation
 
